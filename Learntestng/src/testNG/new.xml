@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ORGANISATION">
+<test name="EMPLOYEE RECORDS">
+<!-- <groups>
+<run>
+<include name="visible"> </include>
+<exclude name="visible"></exclude>
+</run>
+
+</groups> -->
+<parameter name="Name" value="sangeetha">
+<parameter name="ID" value="1000"></parameter>
+<parameter name="dept" value="cse"></parameter>
+</parameter>
+<classes>
+<class name="testNG.ParmeterTestng"></class>
+</classes>
+</test>
+</suite>

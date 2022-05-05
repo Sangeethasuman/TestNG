@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="2">
+<!-- <listeners>
+<listener class-name="testNG.Listeners"></listener>
+</listeners> -->
+<test name="new">
+
+<!-- <test name="Test Cases"> -->
+<!-- <groups>
+<run>
+  <include name=""></include>
+
+</run>
+
+</groups> -->
+<!-- <parameter name="name" value="aadvik"></parameter>  -->
+<classes>
+<class name="testNG.Parallel"></class>
+<!-- <class name="testNG.CarDriving"> </class>
+<class name="testNG.JobApplication"></class> -->
+<!-- <class name="testNG.SampleTestCase"></class> -->
+<!-- <class name="testNG.SuiteExample"></class> -->
+</classes>
+</test>
+</suite>               

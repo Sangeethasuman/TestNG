@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ORGANISATION]">
+  <test name="EMPLOYEE RECORDS(failed)">
+    <parameter name="ID" value="1000"/>
+    <parameter name="dept" value="cse"/>
+    <parameter name="Name" value="sangeetha"/>
+    <classes>
+      <class name="testNG.ParmeterTestng">
+        <methods>
+          <include name="passing"/>
+        </methods>
+      </class> <!-- testNG.ParmeterTestng -->
+    </classes>
+  </test> <!-- EMPLOYEE RECORDS(failed) -->
+</suite> <!-- Failed suite [ORGANISATION] -->
